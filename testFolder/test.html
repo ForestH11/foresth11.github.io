@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        p{
+            width: 50px;
+            grid-column: 0;
+        }
+        img{
+            grid-column: 2;
+            grid-row: 1;
+        }
+    </style>
 </head>
 <body>
-    <h2>My First Page with inline scripts</h2>
-    <p id = demo>Does this get deleted?</p>
-    <script>document.getElementById("demo").innerHTML = "Hello Benjamin AKA Mahonri Moriancumer!";</script>
-    <iframe width="1152" height="698" src="http://play.starwars.com/html5/starwars_crawlcreator/?cid=null" frameborder="0" scrolling="no"></iframe>
+    <p>text stuff lorem impasdflkjasdlfkasfd;lasdjkf;alskfa;lskfjasjdflads;kfj a;lsd fka;lsdkf as;dfl ka;sldfa;sld fa;sld f;ak</p>
+    <img src="#" alt="img stuff">
+    <p>stuff</p>
+    <img src="" alt="more img stuff">
 </body>
 </html>
